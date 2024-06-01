@@ -1,0 +1,196 @@
+body{
+max-width: 1200px;
+margin:0 auto;
+padding: 0;
+background-color: rgb(122, 204, 255);
+}
+
+.header-section nav{
+  display: flex;
+  justify-content: space-around;
+height: 50px;
+background-color:  rgb(75, 182, 248);
+font-family: days one;
+font-size: 20px;
+ text-decoration: none;
+ align-items: baseline;
+ padding: 10px;
+max-width: 1200px;
+}
+
+ .header-section nav a{
+  text-decoration: none;
+}
+.header-section nav a:hover{
+  text-decoration: underline;
+  background-color: rgb(90, 156, 248);
+  padding: 20px;
+}
+
+.header-section nav ul li a{
+  text-decoration: none;
+}
+
+.header-section nav ul li a:hover{
+  text-decoration: underline;
+  background-color: rgb(90, 156, 248);
+  padding: 20px;
+}
+
+ul,li{
+  margin:0;
+  padding: 0;
+  display: inline;
+  font-family: days one;
+}
+ul{
+  max-width: 50%;
+  display: flex;
+ flex:1;
+ justify-content: space-evenly;;
+}
+
+/*price panel styling */
+.main-container{
+
+  width:90%;
+  height: 600px;
+  margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+align-content: center;
+
+ 
+}
+
+.main-container div{
+  width:300px;
+height: 500px;
+
+margin: 5px;
+box-shadow: 0 0.5em 1.2em -0.2em;
+  box-sizing: border-box;
+}
+
+.main-container div h1{
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+ 
+  border-radius: 20px;
+  font-family: days one;
+  font-size: 30px;
+
+}
+.main-container div h1:hover{
+  background-color:  lightslategray
+}
+
+div:nth-of-type(2n) h1{
+ background-color: greenyellow
+}
+
+div:nth-of-type(1) h1{
+ background-color: rgb(107, 164, 239);
+}
+
+div:nth-of-type(3) h1{
+ background-color:orange;
+}
+
+.main-container div p{
+  line-height: 1.2;
+  padding: 20px;
+  margin: 0 auto;
+  font-family: PT sans narrow;
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid;
+}
+
+/*hovering for each conainer */
+.main-container div:hover{
+  background-color: blanchedalmond;
+  color:rgb(86, 2, 122);
+  transform: scale(1.1);
+  cursor: pointer;
+
+}
+
+body > h1{
+  color:#042f55;
+  text-align: center;
+  font-family: days one;
+  font-weight: 700px;
+  text-transform: uppercase;
+}
+
+span{
+  background-color: rgb(162, 236, 162);
+}
+
+span:hover{
+  background-color: #0cec0c;
+}
+
+/* label for price panel start here */
+.panel-label{
+  /* background-color: gold; */
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+margin:0 auto;
+
+}
+
+.panel-label div{
+width: 200px;
+text-align: center;
+margin: 0 auto;
+
+box-sizing: border-box;
+border-radius: 10px
+}
+.panel-label div:hover{
+background-color: rgb(189, 166, 16);
+}
+
+.panel-label div:hover{
+  border:2px solid #78c6f0;
+  background-color: bisque;
+  cursor: pointer;
+}
+
+/*footer syling*/
+
+.footer-section{
+  background-color: #f1f1f1;
+  padding: 10px;
+  bottom: 0;
+  max-width: 1200px;
+ text-align: center;
+ margin: 0 auto;
+ 
+}
+.footer-section ul{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.footer-section li {
+  margin: 0 auto;
+
+}
+
+.footer-section a {
+  color: #333;
+  text-decoration: none;
+  
+}
